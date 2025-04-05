@@ -40,6 +40,13 @@ version = "0.0.0"
 readme = "README.rst"
 requires-python = "~=3.8"
 
+[tool.poetry]
+name = "docstrfmt"
+version = "0.0.0"
+description = "A formatter for Sphinx flavored reStructuredText."
+authors = ["Joel Payne <lilspazjoekp@gmail.com>"]
+readme = "README.rst"
+
 [project.optional-dependencies]
 ci = ["coveralls"]
 d = [
